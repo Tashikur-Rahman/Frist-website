@@ -2,6 +2,37 @@ body {
     font-family: poppins;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #fff8f3;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-top: 10px;
+    margin-top: -20px;
+
+}
+
+.logo {
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+nav ul li {
+    font-size: 40px;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.hire {
+    background-color: antiquewhite;
+    border: black;
+    border-radius: 10px;
+    font-weight: 400;
+    padding: 40px
+}
+
 h2 {
     margin-top: -30px;
     font-weight: 400;
@@ -18,13 +49,11 @@ h1 {
     margin-bottom: -20px;
 }
 
-
-
 .cv {
     background-color: aqua;
     text-decoration: none;
     cursor: pointer;
-    margin: 50px;
+    margin: 60px;
     padding: 20px;
     border-radius: 10px;
     font-size: 20px;
@@ -52,13 +81,13 @@ h1 {
     margin: 100px;
     padding: 100px;
     text-align: center;
-
 }
 
 .about {
-    margin-top: -20px;
+    margin-top: 30px;
     text-align: center;
 }
+
 
 
 .info {
@@ -72,6 +101,7 @@ h4 {
 
 .info h4 {
     margin-left: 100px;
+    padding-bottom: 40px;
 }
 
 .info h4 strong {
@@ -84,6 +114,8 @@ h4 {
 p {
     color: gray;
     font-size: 20px;
+    padding-bottom: 40px;
+
 }
 
 h1 {
@@ -95,7 +127,6 @@ h1 {
     display: flex;
     margin: 10px 50px;
     border-radius: 10px;
-    background-;
 }
 
 h5 {
@@ -115,16 +146,19 @@ h5 {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
+    padding-bottom: 30px;
 
 }
 
 .head {
     font-size: 40px;
+    padding-top: 30px;
 }
 
 .resume-title {
     text-align: center;
     font-size: 40px;
+    padding-top: 40px;
 }
 
 .Diploma {
@@ -159,4 +193,54 @@ h6 {
 
 .resume-cv {
     text-align: center;
+}
+
+.social {
+    padding-bottom: 50px;
+    margin: 50px;
+    display: flex;
+    background-color: rgba(244, 223, 196, 0.353);
+}
+
+.icon {
+    padding-top: 100px;
+    margin-right: 300px;
+    margin-left: 100px;
+}
+
+.icon1 {
+    padding-top: 100px;
+    padding-left: 100px;
+    margin-right: 300px;
+    margin-bottom: 40px;
+}
+
+.mail {
+    height: 20px;
+    width: 180px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px solid black;
+}
+
+.pass {
+    height: 20px;
+    width: 180px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px solid black;
+}
+
+.text {
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.button {
+    background-color: aqua;
+    border: black;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 15px;
 }
